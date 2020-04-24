@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Primenumberdynamic
 {
 	public static void main(String[] args) {
@@ -10,13 +11,16 @@ public class Primenumberdynamic
 		boolean isprime=num1.isprime();
 		System.out.println("isprime"+" "+isprime);
 	}
+
 public class Mynumber
 	{
 		private int num;
+
 		public Mynumber(int num)
 		{
 			this.num=num;
 		}
+
 		public boolean isprime()
 		{
 			if(num<2)
@@ -32,5 +36,7 @@ public class Mynumber
 			}
 			return true;
 		}
+
 	}
+
 }
